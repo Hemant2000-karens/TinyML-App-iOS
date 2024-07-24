@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		413360752C50DC8F00557A14 /* TinyMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413360742C50DC8F00557A14 /* TinyMLApp.swift */; };
+		413360772C50DC8F00557A14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413360762C50DC8F00557A14 /* ContentView.swift */; };
+		413360792C50DC9200557A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413360782C50DC9200557A14 /* Assets.xcassets */; };
+		4133607C2C50DC9200557A14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4133607B2C50DC9200557A14 /* Preview Assets.xcassets */; };
+		41C57BF92C50F4D1001CFE7B /* shape_classification_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 41C57BF82C50F4D1001CFE7B /* shape_classification_model.tflite */; };
+		41C57BFB2C50F586001CFE7B /* MLmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C57BFA2C50F586001CFE7B /* MLmodel.swift */; };
+		41C57BFD2C50F837001CFE7B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C57BFC2C50F837001CFE7B /* CameraView.swift */; };
+		41C57BFF2C51163D001CFE7B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C57BFE2C51163D001CFE7B /* Coordinator.swift */; };
+		F3E60B22D3DC5D7C8F551EBD /* Pods_TinyML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16D35CADF9194E0CE51F930 /* Pods_TinyML.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABA40E53B5C358F88222E62 /* Pods-TinyML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyML.release.xcconfig"; path = "Target Support Files/Pods-TinyML/Pods-TinyML.release.xcconfig"; sourceTree = "<group>"; };
+		413360712C50DC8F00557A14 /* TinyML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413360742C50DC8F00557A14 /* TinyMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMLApp.swift; sourceTree = "<group>"; };
+		413360762C50DC8F00557A14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		413360782C50DC9200557A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4133607B2C50DC9200557A14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41C57BF82C50F4D1001CFE7B /* shape_classification_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = shape_classification_model.tflite; sourceTree = "<group>"; };
+		41C57BFA2C50F586001CFE7B /* MLmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLmodel.swift; sourceTree = "<group>"; };
+		41C57BFC2C50F837001CFE7B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		41C57BFE2C51163D001CFE7B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9A8E6294C3341FD1457F95EA /* Pods-TinyML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyML.debug.xcconfig"; path = "Target Support Files/Pods-TinyML/Pods-TinyML.debug.xcconfig"; sourceTree = "<group>"; };
+		B16D35CADF9194E0CE51F930 /* Pods_TinyML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4133606E2C50DC8F00557A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E60B22D3DC5D7C8F551EBD /* Pods_TinyML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF4D96CAA860A5156E3222A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E6294C3341FD1457F95EA /* Pods-TinyML.debug.xcconfig */,
+				1ABA40E53B5C358F88222E62 /* Pods-TinyML.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		413360682C50DC8F00557A14 = {
+			isa = PBXGroup;
+			children = (
+				413360732C50DC8F00557A14 /* TinyML */,
+				413360722C50DC8F00557A14 /* Products */,
+				2AF4D96CAA860A5156E3222A /* Pods */,
+				68D43430C0F78CEC18207038 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		413360722C50DC8F00557A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				413360712C50DC8F00557A14 /* TinyML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		413360732C50DC8F00557A14 /* TinyML */ = {
+			isa = PBXGroup;
+			children = (
+				413360742C50DC8F00557A14 /* TinyMLApp.swift */,
+				413360762C50DC8F00557A14 /* ContentView.swift */,
+				413360782C50DC9200557A14 /* Assets.xcassets */,
+				4133607A2C50DC9200557A14 /* Preview Content */,
+				41C57BFA2C50F586001CFE7B /* MLmodel.swift */,
+				41C57BFC2C50F837001CFE7B /* CameraView.swift */,
+				41C57BFE2C51163D001CFE7B /* Coordinator.swift */,
+			);
+			path = TinyML;
+			sourceTree = "<group>";
+		};
+		4133607A2C50DC9200557A14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41C57BF82C50F4D1001CFE7B /* shape_classification_model.tflite */,
+				4133607B2C50DC9200557A14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68D43430C0F78CEC18207038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16D35CADF9194E0CE51F930 /* Pods_TinyML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413360702C50DC8F00557A14 /* TinyML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4133607F2C50DC9200557A14 /* Build configuration list for PBXNativeTarget "TinyML" */;
+			buildPhases = (
+				7DFF6F5916BCE316A87CF8BD /* [CP] Check Pods Manifest.lock */,
+				4133606D2C50DC8F00557A14 /* Sources */,
+				4133606E2C50DC8F00557A14 /* Frameworks */,
+				4133606F2C50DC8F00557A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyML;
+			productName = TinyML;
+			productReference = 413360712C50DC8F00557A14 /* TinyML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		413360692C50DC8F00557A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					413360702C50DC8F00557A14 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4133606C2C50DC8F00557A14 /* Build configuration list for PBXProject "TinyML" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 413360682C50DC8F00557A14;
+			productRefGroup = 413360722C50DC8F00557A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413360702C50DC8F00557A14 /* TinyML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4133606F2C50DC8F00557A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4133607C2C50DC9200557A14 /* Preview Assets.xcassets in Resources */,
+				41C57BF92C50F4D1001CFE7B /* shape_classification_model.tflite in Resources */,
+				413360792C50DC9200557A14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DFF6F5916BCE316A87CF8BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4133606D2C50DC8F00557A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C57BFB2C50F586001CFE7B /* MLmodel.swift in Sources */,
+				413360772C50DC8F00557A14 /* ContentView.swift in Sources */,
+				41C57BFF2C51163D001CFE7B /* Coordinator.swift in Sources */,
+				413360752C50DC8F00557A14 /* TinyMLApp.swift in Sources */,
+				41C57BFD2C50F837001CFE7B /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4133607D2C50DC9200557A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4133607E2C50DC9200557A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		413360802C50DC9200557A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8E6294C3341FD1457F95EA /* Pods-TinyML.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyML/Preview Content\"";
+				DEVELOPMENT_TEAM = D6D65JAU83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture images for analysis.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iiitdmj.TinyML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		413360812C50DC9200557A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABA40E53B5C358F88222E62 /* Pods-TinyML.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyML/Preview Content\"";
+				DEVELOPMENT_TEAM = D6D65JAU83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture images for analysis.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iiitdmj.TinyML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4133606C2C50DC8F00557A14 /* Build configuration list for PBXProject "TinyML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4133607D2C50DC9200557A14 /* Debug */,
+				4133607E2C50DC9200557A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4133607F2C50DC9200557A14 /* Build configuration list for PBXNativeTarget "TinyML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413360802C50DC9200557A14 /* Debug */,
+				413360812C50DC9200557A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 413360692C50DC8F00557A14 /* Project object */;
+}
